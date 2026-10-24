@@ -4,9 +4,9 @@
     "name": "Muse's Memoria",
     "category": "Birthday",
     "price": 500,
-    "inStock": 3,
+    "inStock": 6,
     "image": "images/Muse.jpeg"
-},
+}, 
 
   {
     "id": 2,
@@ -22,7 +22,7 @@
     "name": "Jino's golden morning",
     "category": "Birthday",
     "price": 300,
-    "inStock": 2,
+    "inStock": 12,
     "image": "images/JIHAN.jpeg"
   },
 
@@ -31,7 +31,7 @@
     "name": "Annie's Silken waltz",
     "category": "Romantic",
     "price": 350,
-    "inStock": 5,
+    "inStock": 10,
     "image": "images/annie.jfif"
 },
 
@@ -40,7 +40,7 @@
     "name": "Sal's lasting glance",
     "category": "Thanks",
     "price": 390,
-    "inStock": 1,
+    "inStock": 7,
     "image": "images/sal.jfif"
   },
 
@@ -49,7 +49,7 @@
     "name": "Once Upon a Dream",
     "category": "Thanks",
     "price": 520,
-    "inStock": 4,
+    "inStock": 14,
     "image": "images/ZINNIA.jpeg"
   },
 
@@ -58,7 +58,7 @@
     "name": "Classic Elegance",
     "category": "Wedding",
     "price": 290,
-    "inStock": 0,
+    "inStock": 2,
     "image": "images/KHAD.jpeg"
   },
 
@@ -67,7 +67,7 @@
     "name": "Sunshine's kiss",
     "category": "Birthday",
     "price": 420,
-    "inStock": 0,
+    "inStock": 10,
     "image": "images/FATOMA.jpeg"
 },
 
@@ -76,7 +76,7 @@
     "name": "Peek of Past",
     "category": "Romantic",
     "price": 360,
-    "inStock": 0,
+    "inStock": 9,
     "image": "images/DAHLIA.jpeg"
 }
 ]
