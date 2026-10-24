@@ -35,3 +35,9 @@
 - Filter by status and by category
 
 - Order detail window
+
+# HOW TO RUN
+- clone the repository: https://github.com/Byte-Muse/try.git
+-Open the folder in vs code
+-start with the live server
+  
