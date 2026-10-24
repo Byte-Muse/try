@@ -19,7 +19,7 @@ h3 {
   background-position: center top;
 }
 
-stat-card {
+.stat-card {
   height: 100%;
   padding: 15px;
   background: lavenderblush;
