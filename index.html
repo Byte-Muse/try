@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muse's Bloom</title>
+    <title>Order Dashboard_Muse's Bloom</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="bloom.css" />
-    <link rel="icon" type="image/x-icon" href="/images/morning-glory.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/morning-glory.png">
   </head>
   <body>
     <header class="page-header py-4">
@@ -61,7 +61,7 @@
       <section>
         <label for="searchInput" class="form-label fw-semibold">Search by customer name</label>
         <input type="text" id="searchInput" class="form-control" placeholder="Saloua">
-      </section>
+      
     
 
       <!--filtre-->
@@ -75,6 +75,13 @@
         </select>
       </div>
 
+      <div class="col-md-4">
+        <label for="categoryFilter" class="form-select"></label>
+        <select class="form-select" id="categoryFilter"></select>
+      </div>
+    </section>
+
+
       <!--counter-->
       <p id="resultCount" class="text-muted">Waiting...</p>
 
@@ -87,21 +94,22 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Bouquet</th>
-                    <th>Occasion</th>
-                    <th>Price</th>
-                    <th>Stock</th>
+                    <th>Customer</th>
+                    <th>City</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Total</th>
                     <th></th>
                 </tr>
             </thead>
 
-            <tbody id="itemsTableBody"></tbody>
+            <tbody id="orderTableBody"></tbody>
         </table>
       </section>
 
     </main>
 
-    <!--modal-->
+    <!--modal for order detail-->
     <div class="modal fade" id="detailModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -113,11 +121,11 @@
                 <div class="modal-body">
                     <img id="detailImage" alt="" class="detail-img mb-3">
 
-                    <p><strong>Occasion: </strong> <span id="detailCategory"></span></p>
-                    <p><strong>Price: </strong> <span id="detailPrice"></span></p>
-                    <p><strong>Stock: </strong> <span id="detailStock"></span></p>
-                    <p><strong>Flowers: </strong> <span id="detailFlowers"></span></p>
-                    <p class="text-muted" id="detailDescription"></p>
+                    <p><strong>Customer: </strong> <span id="detailCustomer"></span></p>
+                    <p><strong>City: </strong> <span id="detailCity"></span></p>
+                    <p><strong>Date: </strong> <span id="detailDate"></span></p>
+                    <p><strong>Status: </strong> <span id="detailStatus"></span></p>
+                    
                 </div>
 
                 <div class="modal-footer">
