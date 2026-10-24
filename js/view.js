@@ -4,7 +4,7 @@ const tableBody = $("#ordersTableBody");
 const resultCount = $("#resultCount");
 const categoryFilter = $("#categoryFilter");
 const errorBox = $("#errorMes");
-const detailModal =new bootsrap.Modal($("#ordersTableBody"));
+const detailModal =new bootstrap.Modal($("#detailModal"));
 
 const STATUS ={
     delivered: { label: "Delivered", css:"status-delivered"},
@@ -24,7 +24,7 @@ const createRow = (o)=> `
 <td>${o.city}</td>
 <td>${o.date}</td>
 <td>${badge(o.status)}</td>
-<td>${o.total}DH</td>
+<td>${o.total} DH </td>
 <td><button class="btn btn-rose btn-sm details-btn" data-id="${o.id}">see</button></td>
 </tr>
 `;
@@ -56,8 +56,8 @@ export const renderDetail =(d)=>{
     $("#detailCity").textContent = d.city;
     $("#detailDate").textContent = d.date;
     $("#detailStatus").textContent = (STATUS[d.status] || {label: d.status}).label;
-    $("#detailLines").textContent = d.lines
-    .map((l)=> `<tr><td><img src="${l.image}" alt="${l.name}" class="thumb">${l.name}</td> <td>${l.price} DH</td> <td>${l.quantity}</td> <td>${l.amount}</td></tr>`) .join("");
+    $("#detailLines").innerHTML = d.lines
+    .map((l)=> `<tr><td><img src="${l.image}" alt="${l.name}" class="thumb">${l.name}</td> <td>${l.price} DH</td> <td>${l.quantity}</td> <td>${l.amount} DH </td></tr>`) .join("");
     $("#detailTotal").textContent = `${d.total} DH`;
     detailModal.show();
 
@@ -65,6 +65,6 @@ export const renderDetail =(d)=>{
 
 export const showError = (message) => {
     errorBox.textContent= message;
-    errorBox.classlist.remove("d-none");
+    errorBox.classList.remove("d-none");
     resultCount.textContent="data failed to load";
 };
