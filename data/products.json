@@ -5,10 +5,8 @@
     "category": "Birthday",
     "price": 500,
     "inStock": 3,
-    "image": "images/Muse.jpeg",
-    "flowers": ["forget-me-not", "lily of the vally", "lily"],
-    "description": "timeless flower that awakens loving feelings and creates beautiful memories."
-  },
+    "image": "images/Muse.jpeg"
+},
 
   {
     "id": 2,
@@ -16,10 +14,8 @@
     "category": "Wedding",
     "price": 450,
     "inStock": 8,
-    "image": "images/AYA.jpeg",
-    "flowers": ["peonies"],
-    "description": "From bridal bouquets to grand romantic gestures, peonies bring unmatched softness"
-  },
+    "image": "images/AYA.jpeg"
+},
 
   {
     "id": 3,
@@ -27,9 +23,7 @@
     "category": "Birthday",
     "price": 300,
     "inStock": 2,
-    "image": "images/JIHAN.jpeg",
-    "flowers": ["tulips"],
-    "description": "Yellow tulips are the ultimate symbol of positive energy, joy, and good vibes"
+    "image": "images/JIHAN.jpeg"
   },
 
   {
@@ -38,10 +32,8 @@
     "category": "Romantic",
     "price": 350,
     "inStock": 5,
-    "image": "images/annie.jfif",
-    "flowers": ["lily"],
-    "description": " Each lily boasts large, pure white petals that exude a sense of luxury and refinement."
-  },
+    "image": "images/annie.jfif"
+},
 
   {
     "id": 5,
@@ -49,9 +41,7 @@
     "category": "Thanks",
     "price": 390,
     "inStock": 1,
-    "image": "images/sal.jfif",
-    "flowers": ["tulips"],
-    "description": "Pink tulips feel classic without feeling formal. They bring warmth without the stronger romantic message."
+    "image": "images/sal.jfif"
   },
 
   {
@@ -60,9 +50,7 @@
     "category": "Thanks",
     "price": 520,
     "inStock": 4,
-    "image": "images/ZINNIA.jpeg",
-    "flowers": ["zinnia"],
-    "description": "The most honest representation of what true friendship actually contains"
+    "image": "images/ZINNIA.jpeg"
   },
 
   {
@@ -71,9 +59,7 @@
     "category": "Wedding",
     "price": 290,
     "inStock": 0,
-    "image": "images/KHAD.jpeg",
-    "flowers": ["Rose"],
-    "description": "Together, white and red roses usually symbolize unity, harmony, and partnership."
+    "image": "images/KHAD.jpeg"
   },
 
   {
@@ -82,10 +68,8 @@
     "category": "Birthday",
     "price": 420,
     "inStock": 0,
-    "image": "images/FATOMA.jpeg",
-    "flowers": ["sunflower", "dahlia", "Rose"],
-    "description": "A sun flower bouquet symbolizes happiness, positivity, loyalty, strength, and new beginnings."
-  },
+    "image": "images/FATOMA.jpeg"
+},
 
   {
     "id": 9,
@@ -93,8 +77,6 @@
     "category": "Romantic",
     "price": 360,
     "inStock": 0,
-    "image": "images/DAHLIA.jpeg",
-    "flowers": ["dahlia", "peonies"],
-    "description": "Dahlia flower meanings include inner strength, positive change, and commitment."
-  }
+    "image": "images/DAHLIA.jpeg"
+}
 ]
