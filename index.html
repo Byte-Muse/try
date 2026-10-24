@@ -60,22 +60,20 @@
       <!--search-->
       <section>
         <label for="searchInput" class="form-label fw-semibold">Search by customer name</label>
-        <input type="text" id="searchInput" class="form-control" placeholder="Salwa">
+        <input type="text" id="searchInput" class="form-control" placeholder="Saloua">
       </section>
     
 
       <!--filtre-->
-      <section>
-        <!--categories-->
-        <p class="fw-semibold mb-2">Categories</p>
-        <div class="d-flex flex-wrap gap-2 mb-3" id="categoryButtons"></div>
-
-        <!--checkbox-->
-        <div class="form-check">
-            <input type="checkbox" id="AvailableOnly" class="form-check-input">
-            <label for="AvailableOnly" class="form-check-label">Show Only Available Bouquets</label>
-        </div>
-      </section>
+      <div class="col-md-4">
+        <label for="statusFiler" class="form-label fw-semibold">Status</label>
+        <select class="form-select" id="statusFilter">
+            <option value="all">All statuses</option>
+            <option value="delivered">Delivered</option>
+            <option value="pending">Pending</option>
+            <option value="cancelled">Cancelled</option>
+        </select>
+      </div>
 
       <!--counter-->
       <p id="resultCount" class="text-muted">Waiting...</p>
