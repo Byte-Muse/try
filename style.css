@@ -118,3 +118,26 @@ html {
   scrollbar-color: #607025 lavenderblush;
   scrollbar-width: thin;
 }
+
+.status{
+    display: inline-block;
+    font-size: medium;
+    padding: 5px 7px;
+    border-radius: 999px;
+}
+
+.status-delivered{
+    background: #7a9bc4;
+    color: #00224b;
+}
+
+.status-pending{
+    background: #cdffc7;
+    color: #607025;
+
+}
+
+.status-cancelled{
+    background: lavenderblush;
+    color: #3a0f12;
+}
