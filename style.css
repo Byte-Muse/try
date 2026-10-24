@@ -1,3 +1,120 @@
-h1{
-    color: aqua;
+body {
+  background-color: #fff9c7;
+  color: #607025;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page-header {
+  background-image: url("images/💮Soft\ Forget-Me-Not\ Floral\ Background\ _\ Elegant\ Cream\ Aesthetic💙.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+stat-card {
+  height: 100%;
+  padding: 15px;
+  background: lavenderblush;
+  border: 1px solid rgb(234, 184, 201);
+  border-radius: 15px;
+}
+
+.stat-card h2 {
+  color: #7a9bc4;
+  font-size: 1.5rem;
+}
+
+#searchInput {
+  max-width: 520px;
+  border-radius: 15px;
+}
+
+.chip {
+  border: 1px solid #8eacd1;
+  background: #7a9bc4;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.chip.active,
+.chip:hover {
+  background-color: lavenderblush;
+  color: #7a9bc4;
+  border-color: rgb(255, 248, 250);
+}
+
+.bouquet-card {
+  border: 1px solid lavenderblush;
+  border-radius: 15px;
+  overflow: hidden;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.stock {
+  font-size: 0.8rem;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.stock.in {
+  background: #7a9bc4;
+  color: #00224b;
+}
+
+.stock.out {
+  background: lavenderblush;
+  color: #3a0f12;
+}
+
+.table {
+  border: 1px solid #ead3d9;
+}
+.table thead th {
+  background-color: lavenderblush;
+}
+.table td,
+.table th {
+  padding: 14px;
+}
+
+.thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.detail-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.btn-rose {
+  background-color: #607025;
+  color: lavenderblush;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.btn-rose:hover {
+  background-color: lavenderblush;
+  color: #607025;
+}
+
+html {
+  scrollbar-color: #607025 lavenderblush;
+  scrollbar-width: thin;
 }
