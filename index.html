@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="images/morning-glory.png">
   </head>
   <body>
@@ -70,9 +70,9 @@
         <label for="statusFilter" class="form-label fw-semibold">Status</label>
         <select class="form-select" id="statusFilter"> Options
             <option value="all">All statuses</option>
-            <option value="delivered">Delivered</option>
-            <option value="pending">Pending</option>
-            <option value="cancelled">Cancelled</option>
+            <option value="Livree">Delivered</option>
+            <option value="En attente">Pending</option>
+            <option value="Annulee">Cancelled</option>
         </select>
       </div>
 
@@ -120,8 +120,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <img id="detailImage" alt="" class="detail-img mb-3">
-
+    
                     <p><strong>Customer: </strong> <span id="detailCustomer"></span></p>
                     <p><strong>City: </strong> <span id="detailCity"></span></p>
                     <p><strong>Date: </strong> <span id="detailDate"></span></p>
