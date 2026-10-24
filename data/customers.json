@@ -1,0 +1,43 @@
+[
+    {
+        "id": 11,
+        "name": "Saloua",
+        "city": "Beni Mellal",
+        "active": true
+    },
+
+    {
+        "id": 12,
+        "name": "Annie",
+        "city": "Sofia",
+        "active": true
+    },
+
+    {
+        "id": 13,
+        "name": "Fatima",
+        "city": "Beirut",
+        "active": false
+    },
+
+    {
+        "id": 14,
+        "name": "Jihane",
+        "city": "Tanger",
+        "active": true
+    },
+
+    {
+        "id": 15,
+        "name": "May",
+        "city": "Alger",
+        "active": false
+    },
+
+    {
+        "id": 16,
+        "name": "Ghita",
+        "city": "Kelaa Des Straghna",
+        "active": true
+    }
+]
