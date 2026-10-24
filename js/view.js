@@ -7,9 +7,9 @@ const errorBox = $("#errorMes");
 const detailModal =new bootstrap.Modal($("#detailModal"));
 
 const STATUS ={
-    delivered: { label: "Delivered", css:"status-delivered"},
-    "pending": { label: "Pending", css:"status-pending"},
-    cancelled: { label: "Cancelled", css:"status-cancelled"},
+    delivered: { label: "Livree", css:"status-delivered"},
+    "pending": { label: "En attente", css:"status-pending"},
+    cancelled: { label: "Annulee", css:"status-cancelled"},
 };
 
 const badge = (status)=>{
